@@ -1,0 +1,1183 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "ae6f09f6-404c-4ec5-8744-a07fe992b0c1",
+   "metadata": {},
+   "source": [
+    "# Python king is in process\n",
+    "## how to use jupiter notebook\n",
+    "## Basic of python\n",
+    "### First program"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9a7664f7-a998-430c-bf9c-199dd7192082",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "hello world\n",
+      "i am coming\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(2+3)\n",
+    "print(\"hello world\")\n",
+    "print(\"i am coming\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4589f983-1b32-4b30-b53f-930c9ecc0ee5",
+   "metadata": {},
+   "source": [
+    "###2_Operators"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3ede74a2-9c4d-410e-a169-2e580a9a52f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n",
+      "-1\n",
+      "0.6666666666666666\n",
+      "8\n",
+      "1\n",
+      "0.6666666666666665\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(2+2)\n",
+    "print(2-3)\n",
+    "print(2/3)\n",
+    "print(2**3)\n",
+    "print(3%2)\n",
+    "print(2**3/3-4+2%5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f20559c7-f037-44ad-a977-f0ca041712d8",
+   "metadata": {},
+   "source": [
+    "# PEMDAS\n",
+    "# parantesis exponential multiplation division addition subtration"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "263315e2-76d8-4a08-9249-afb5a965be41",
+   "metadata": {},
+   "source": [
+    "###3_Strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "48e32f7d-e31b-4e5a-a40f-d6bdadbf2064",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "hello world\n",
+      "i am coming\n",
+      "hello world\n",
+      "Hello world2\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(2+3)\n",
+    "print(\"hello world\")\n",
+    "print(\"i am coming\")\n",
+    "\n",
+    "print('hello world')\n",
+    "print('''Hello world2''')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8bf5815c-4833-46b2-8667-6de1e943fdb0",
+   "metadata": {},
+   "source": [
+    "###4_Comments \"ctrl+/\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "6892ad00-e0f4-476c-a0eb-b227d6bef3e6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# print(2+3)\n",
+    "# print(\"hello world\")\n",
+    "# print(\"i am coming\") press this to comment out ctrl+/"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ac23f3cf-e161-414c-a7c0-43a44b0945bc",
+   "metadata": {},
+   "source": [
+    "###5_Variables \n",
+    "\"# Rule of variable\n",
+    "# 1- variable must be number letter or underscore\n",
+    "# 2- do not start with number\n",
+    "# 3- spaces are not allowed\n",
+    "# 4- do not use function name like type print mean median\n",
+    "# 5- short and descriptive\n",
+    "# 6- case sensitivity keep an eye on upper case or lower case suggestion is lower case use normally\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "fc07d7ce-5043-4582-bce9-3af360746f3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "i am going to be the python king soon\n",
+      "15\n",
+      "25\n",
+      "<class 'int'>\n",
+      "<class 'str'>\n",
+      "<class 'int'>\n",
+      "8\n",
+      "('mangoes', 'oranges')\n",
+      "<class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=5\n",
+    "y= \"i am going to be the python king soon\"\n",
+    "\n",
+    "print(x)\n",
+    "print(y)\n",
+    "x=15\n",
+    "print(x)\n",
+    "x=x+10\n",
+    "print(x)\n",
+    "type(x)\n",
+    "print(type(x))\n",
+    "print(type(y))\n",
+    "\n",
+    "fruit_basket=8\n",
+    "type(fruit_basket)\n",
+    "print(type(fruit_basket))\n",
+    "print(fruit_basket)\n",
+    "fruit_basket=\"mangoes\" , \"oranges\"\n",
+    "type(fruit_basket)\n",
+    "print(fruit_basket)\n",
+    "print(type(fruit_basket))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3dfe795f-57a2-460c-b3e4-ade402dbd0cf",
+   "metadata": {},
+   "source": [
+    "###6_Input Variables "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "34b2d709-f6f6-4d3b-a27f-f3d60f331d01",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "what is your favourite fruit mango\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mango\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruit_basket=input(\"what is your favourite fruit\")\n",
+    "print(fruit_basket)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c0d0bec6-954e-4288-b5fc-953ca8fc8a8e",
+   "metadata": {},
+   "source": [
+    "###input function 2nd stage"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "9d6967c0-b4ea-48ab-9fb0-bcb2aafbfc95",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "what is your name asim\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello! asim\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=input(\"what is your name\")\n",
+    "greetings=\"Hello!\"\n",
+    "print(greetings,  name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fd67a23c-e57f-445d-ab3c-fb4cea923d54",
+   "metadata": {},
+   "source": [
+    "###another way of input 2nd stage"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0de45d17-a265-4c9f-9b86-b1e80c010baf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "what is your name asim\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello! asim\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=input(\"what is your name\")\n",
+    "print(\"hello!\",  name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "360b01ac-4aa1-470a-84b9-391d3c0c2747",
+   "metadata": {},
+   "source": [
+    "###3rd stage of input variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "8a6affd0-2ef0-402e-9ea1-1d895876d9f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "What is your name?   asim\n",
+      "how old are you? 34\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello! asim you are still young\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=input(\"What is your name?  \")\n",
+    "age=input(\"how old are you?\"  )\n",
+    "greetings=(\"Hello!\")\n",
+    "print(greetings, name , \"you are still young\" )\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6ff1f255-658c-4ba8-96ad-13dfaddd6f97",
+   "metadata": {},
+   "source": [
+    "###4th stage of input variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "ea66feba-e46e-4651-84f7-bfc4dc042be9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "What is your name?   asim\n",
+      "how old are you? 34\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello! asim 34\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=input(\"What is your name?  \")\n",
+    "age=input(\"how old are you?\"  )\n",
+    "greetings=(\"Hello!\")\n",
+    "print(greetings, name , age )\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6870c20d-0b8c-42c7-907a-8900fec15688",
+   "metadata": {},
+   "source": [
+    "###07_logical operator are either true or false, yes or no, 0 or 1\n",
+    "### equal to                          ==\n",
+    "### not equal to                      !=\n",
+    "### less than                         <\n",
+    "### greater than                      >\n",
+    "### less than and equal to            <=\n",
+    "### greater than and equal to         >=\n",
+    "\n",
+    "### is 4 equal to 4?m"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "78b7468d-beaa-45cb-9989-4b6454bcaf03",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "False\n",
+      "True\n",
+      "False\n",
+      "True\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(4==4)\n",
+    "print(4!=4)\n",
+    "print(4>3)\n",
+    "print(4<3)\n",
+    "print(4<=6)\n",
+    "print(4>=6)\n",
+    "\n",
+    "# hammad_age=4\n",
+    "# school_age=5\n",
+    "# print(hammad_age>=school_age)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "013f5add-cb46-4f7b-b087-db9feda21622",
+   "metadata": {},
+   "source": [
+    "###logical operator applications"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "e354c12e-f0e8-41d3-b50f-6d8a9181891a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "hammad_age=4\n",
+    "school_age=5\n",
+    "print(hammad_age>=school_age)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "63705409-5ec9-4c37-97c2-2df431f977dd",
+   "metadata": {},
+   "source": [
+    "###Input parameter and conditional"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "5f960f85-dc42-4a51-a48d-19c0144e258d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "how old are you? 34\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'int'>\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "hammad_age=input(\"how old are you?\")\n",
+    "print(type(hammad_age))\n",
+    "hammad_age=int(hammad_age) #above input is string to convert to int use int function\n",
+    "print(type(hammad_age))\n",
+    "school_age=5\n",
+    "print(hammad_age>=school_age)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "104d65a1-5f43-4fb0-8b73-804d5ac8aeb7",
+   "metadata": {},
+   "source": [
+    "###8_Type COversion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "752b5e85-fcd9-4733-8861-dbd6d775e28b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10        #int\n",
+    "y=10.2      #float\n",
+    "z=\"hello\"   # str\n",
+    "\n",
+    "print(type(x))\n",
+    "print(type(y))\n",
+    "print(type(z))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8b661d8b-b0ea-44e2-8a4f-d29a402180f5",
+   "metadata": {},
+   "source": [
+    "### implicit type conversion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "2873490d-8cb3-4e79-ba7d-130807f39ab0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "102.0 type of x is :   <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=x*y\n",
+    "print(x,\"type of x is :  \", type(x))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "488c7c79-426f-4cb8-af57-a67f70be59af",
+   "metadata": {},
+   "source": [
+    "## explicit type conversion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "e2fc7a2e-fa25-4aee-b665-99f7709da0a4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "what is your age?   33\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'int'>\n",
+      "<class 'int'>\n",
+      "33 <class 'int'>\n",
+      "<class 'int'>\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "what is your name?   asim\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "asim <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "age=input(\"what is your age?  \")\n",
+    "print(type(age))\n",
+    "age=int(age)\n",
+    "print(type(age))\n",
+    "print(type(int(age)))\n",
+    "print(age,type(int(age)))\n",
+    "\n",
+    "print(type(age))\n",
+    "age=int(age)\n",
+    "print(type(age))\n",
+    "print(type(float(age)))\n",
+    "\n",
+    "name=input(\"what is your name?  \")\n",
+    "print(name, type(str(name)))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2ee8b106-537c-4849-9b28-987531dd2b45",
+   "metadata": {},
+   "source": [
+    "###9_IF_ELIF_ELSE    \n",
+    "\n",
+    "##can use as many as elif statements "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "ecdda906-b0fc-41ec-8ca4-4b8df9d8a3ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "aqeel cannot go to school\n",
+      "aqeel cannot go to school\n",
+      "you should take care of aqeel\n"
+     ]
+    }
+   ],
+   "source": [
+    "age_at_school=5\n",
+    "aqeel_age=4\n",
+    "# question is can aqeel join school?\n",
+    "\n",
+    "if age_at_school==aqeel_age:\n",
+    "    print(\"Aqeel can join school\")\n",
+    "else:\n",
+    "    print(\"aqeel cannot go to school\")\n",
+    "\n",
+    "\n",
+    "age_at_school=5\n",
+    "aqeel_age=6\n",
+    "# question is can aqeel join school?\n",
+    "\n",
+    "if age_at_school==aqeel_age:\n",
+    "    print(\"Aqeel can join school\")\n",
+    "else:\n",
+    "    print(\"aqeel cannot go to school\")\n",
+    "\n",
+    "age_at_school=5\n",
+    "aqeel_age=2\n",
+    "# question is can aqeel join school?\n",
+    "\n",
+    "if age_at_school==aqeel_age:\n",
+    "    print(\"Aqeel can join school\")\n",
+    "elif aqeel_age > age_at_school:\n",
+    "    print(\"aqeel should join higher classes\")\n",
+    "elif aqeel_age==2:\n",
+    "    print(\"you should take care of aqeel\")\n",
+    "else:\n",
+    "    print(\"aqeel cannot go to school\")\n",
+    "\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e3da1c30-d273-45b7-b8a3-003a771f955e",
+   "metadata": {},
+   "source": [
+    "###10_Functions "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "c760296f-a827-4f3b-bb6f-084f6d6c96ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Asim is going to be python king soon\")\n",
+    "print(\"Asim is going to be python king soon\")\n",
+    "print(\"Asim is going to be python king soon\")\n",
+    "print(\"Asim is going to be python king soon\")\n",
+    "print(\"Asim is going to be python king soon\")\n",
+    "print(\"Asim is going to be python king soon\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5dedfa5d-7d38-4785-90bf-c9a121127b83",
+   "metadata": {},
+   "source": [
+    "### defining own function type 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "b5b12f13-7ec4-4d98-bbd7-c463a7a37378",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n",
+      "Asim is going to be python king soon\n"
+     ]
+    }
+   ],
+   "source": [
+    "def print_asim():\n",
+    "    print(\"Asim is going to be python king soon\")\n",
+    "    print(\"Asim is going to be python king soon\")\n",
+    "    print(\"Asim is going to be python king soon\")\n",
+    "\n",
+    "print_asim()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "76274b8e-88b9-4efc-86ac-2013469caa1d",
+   "metadata": {},
+   "source": [
+    "## defining a function type 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "f541706b-6fd2-4b47-b16e-642171d1fa04",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " Asim is going to be python king soon\n",
+      " Asim is going to be python king soon\n",
+      " Asim is going to be python king soon\n"
+     ]
+    }
+   ],
+   "source": [
+    "def print_asim():\n",
+    "    text=\" Asim is going to be python king soon\"\n",
+    "    print(text)\n",
+    "    print(text)\n",
+    "    print(text)\n",
+    "\n",
+    "print_asim()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "154abf13-b9a5-478d-9d44-0167d81b5bd6",
+   "metadata": {},
+   "source": [
+    "## type 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "2241a537-2ba1-46c4-ae5b-bb6a332b1682",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asim is going to be the champ of python\n",
+      "Asim is going to be the champ of python\n",
+      "Asim is going to be the champ of python\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "\n",
+    "def print_asim(text):\n",
+    "    print(text)\n",
+    "    print(text)\n",
+    "    print(text)\n",
+    "print_asim(\"Asim is going to be the champ of python\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "34d9c1d9-89a4-4669-9e09-ca6e72d1057b",
+   "metadata": {},
+   "source": [
+    "## type 4 using if elif else\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "b22ab9b8-5070-4eaf-acbe-a86a5202a400",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hammad can join higher classes\n"
+     ]
+    }
+   ],
+   "source": [
+    "def school_function(age, text):\n",
+    "    if age==5:\n",
+    "        print(\"hammad can join the school\")\n",
+    "    elif age>5:\n",
+    "        print(\"hammad can join higher classes\")\n",
+    "    else:\n",
+    "        print(\"hammad is still a baby\")\n",
+    "\n",
+    "school_function(10, \"hammad\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "70afa808-2c37-46cd-abd5-ca729ce740a3",
+   "metadata": {},
+   "source": [
+    "##type 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "c1a52e90-b044-4fbd-81f4-849cbff2d372",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hammad can join higher classes\n"
+     ]
+    }
+   ],
+   "source": [
+    "def school_function(age):\n",
+    "    if age==5:\n",
+    "        print(\"hammad can join the school\")\n",
+    "    elif age>5:\n",
+    "        print(\"hammad can join higher classes\")\n",
+    "    else:\n",
+    "        print(\"hammad is still a baby\")\n",
+    "school_function(10)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7d670f3f-2ccd-45d1-a54b-406beaf87694",
+   "metadata": {},
+   "source": [
+    "## defining a function of future"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "4dd19c5b-7740-49c6-8764-79f180a99a0a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "38\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "def future_age(age):\n",
+    "    new_age=age+20\n",
+    "    return new_age\n",
+    "    print(new_age)\n",
+    "\n",
+    "future_predicted_age=future_age(18)\n",
+    "print(future_predicted_age)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1bbd7855-e163-42e5-8257-09ee6278a41f",
+   "metadata": {},
+   "source": [
+    "###11 while and for loops two main types\n",
+    "#discussing while loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "486f4fe2-76da-4172-9ab4-4ed5c4bacd9a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "mon\n",
+      "tue\n",
+      "wed\n",
+      "thu\n",
+      "sat\n",
+      "sun\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=0\n",
+    "while x<5:\n",
+    "    print(x)\n",
+    "    x=x+1\n",
+    "\n",
+    "days= \"mon\",\"tue\",\"wed\",\"thu\",\"fri\",\"sat\",\"sun\"\n",
+    "for d in days:\n",
+    "    if (d==\"fri\"):continue # skips d or fri\n",
+    "    print(d)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a69ef51c-3bc5-4cbe-80ec-f678f7643122",
+   "metadata": {},
+   "source": [
+    "# For loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "23d24c88-b230-43cc-b472-01212aa88f83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "for x in range(5,10):\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "925bf9d9-9510-4a59-94de-05f476bac45d",
+   "metadata": {},
+   "source": [
+    "# array in loop function with break"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "134fe943-ce29-4ae9-987c-7a0a2772f300",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mon\n",
+      "tue\n",
+      "wed\n",
+      "thu\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "days= \"mon\",\"tue\",\"wed\",\"thu\",\"fri\",\"sat\",\"sun\"\n",
+    "for d in days:\n",
+    "    if (d==\"fri\"):break #loop breaks on d or friday\n",
+    "    print(d)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8f01328a-f7bd-498a-8dbe-27fbf3cafa56",
+   "metadata": {},
+   "source": [
+    "# continue fuction"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "11707df8-78f1-4f6c-8f55-87d941676601",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mon\n",
+      "tue\n",
+      "wed\n",
+      "thu\n",
+      "sat\n",
+      "sun\n"
+     ]
+    }
+   ],
+   "source": [
+    "days= \"mon\",\"tue\",\"wed\",\"thu\",\"fri\",\"sat\",\"sun\"\n",
+    "for d in days:\n",
+    "    if (d==\"fri\"):continue # skips d or fri\n",
+    "    print(d)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "09df6c0b-f64c-49dc-b557-b927473a921d",
+   "metadata": {},
+   "source": [
+    "# this is used to recall the fuction made by authors\n",
+    "# notes\n",
+    "#important libraries \n",
+    "#numpy , pandas , etc"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "13c1c7fa-386a-4632-8fa1-eb6e75ef6be6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the value of pi is  3.141592653589793\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "import math\n",
+    "print(\"the value of pi is \",math.pi)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d243de35-f145-477a-92d4-9a9a6b1e5cb8",
+   "metadata": {},
+   "source": [
+    "# another library call"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "551c12ed-7d7f-4d6a-b8e5-cf09838c14fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "350\n"
+     ]
+    }
+   ],
+   "source": [
+    "import statistics\n",
+    "x=[100,200,300,400,500,600]\n",
+    "print(statistics.mean(x))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5da10cac-8335-45a6-ac89-060ca57355ea",
+   "metadata": {},
+   "source": [
+    "###12troubleshooting\n",
+    "\n",
+    "#print(i am going to be the king of python)\n",
+    "#syntax error are those where you missed the punctuations ie python language error\n",
+    "\n",
+    "#print(25/0)  #zerodivision error called runtime error ie mathematical error"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "bfdc7b87-2e30-4dee-805e-6d130671e929",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello name\n"
+     ]
+    }
+   ],
+   "source": [
+    "name= \"Asim\"\n",
+    "print(\"hello name\")  # symentic error difficult to trace"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "acd9234f-e452-473c-a4e0-7cf194e2df62",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
